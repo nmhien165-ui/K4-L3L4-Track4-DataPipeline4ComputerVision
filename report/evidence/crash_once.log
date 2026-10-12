@@ -1,0 +1,8 @@
+Airflow crash-once evidence (text excerpt; full log and before/after states are in report/screenshots/)
+DAG: day09_video_pipeline
+Run: manual__2026-10-12T16:17:39+00:00
+Task: silver_frames, map_index=21, trip=trip-07900
+RuntimeError: simulated crash while extracting trip-07900; run it again
+AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+Task exited with return code 1.
+Recovery: map_index 21 became success on try 2 after clearing only that mapped task; seven blocked downstream tasks were then cleared for this run; DAG run became success.

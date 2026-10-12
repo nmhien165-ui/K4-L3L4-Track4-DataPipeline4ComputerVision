@@ -1,7 +1,7 @@
 # Trạng thái công việc
 
 ## Mục tiêu hiện tại
-- Bàn giao bài Day 9 với MSSV chính xác `2A202602759` trên repo GitHub Public.
+- Bài Day 9 với MSSV `2A202602759` đã được đẩy lên repo GitHub Public; bàn giao đường dẫn nộp.
 
 ## Việc đã hoàn thành
 - Docker Desktop, Airflow, MinIO, Postgres và Metabase chạy cục bộ. `.env` chứa `LAB_STUDENT_ID=2A202602759`; cờ `LAB_FAIL_ONCE` đã gỡ.
@@ -13,7 +13,7 @@
 - `REPORT.md` đã điền đủ 10 câu, MSSV đúng, trip crash đúng và số liệu Metabase mới. ZIP dữ liệu course không được đưa lên Git nhưng giữ bản cục bộ.
 
 ## Việc đang làm
-- Đã tạo lại checkpoint commits chưa từng đẩy với MSSV đúng; đang chạy checker cuối trước khi push.
+- Không còn việc kỹ thuật đang làm. Người nộp cần gửi đường dẫn repo lên hệ thống LMS.
 
 ## File đã sửa/tạo
 - `REPORT.md`, `WORK_STATUS.md`, `report/verify.txt`.
@@ -25,11 +25,12 @@
 - Giữ nguyên mã, tests, Compose và tài liệu scaffold. Ba file được checker bảo vệ giữ đúng byte Git HEAD; `core.autocrlf=false` chỉ áp dụng ở repo cục bộ.
 - Phần số của MSSV chữ-số dùng cho công thức trip theo quy tắc người dùng đã xác nhận.
 - Ảnh Airflow/Metabase chụp từ service thật bằng Edge headless khi browser helper của Codex không khởi tạo được; không chỉnh sửa nội dung ảnh.
-- Remote `main` chưa đổi trong lúc người dùng đính chính MSSV; bản đang chuẩn bị là bản đúng.
+- Remote `main` được giữ nguyên trong lúc người dùng đính chính MSSV; chỉ bản đúng được đẩy lên.
 - Người dùng đã xác nhận công khai họ tên và MSSV `2A202602759` trên repo Public. Các commit local chưa từng đẩy đã được dựng lại để không đưa mã nhập nhầm vào lịch sử remote.
+- Checker nộp bài đạt 17/17; đã push `main` và đối chiếu SHA remote/local trùng nhau ở thời điểm kiểm tra. GitHub API xác nhận repo Public.
 
 ## Lỗi/vấn đề còn tồn tại
-- Chưa hoàn tất push và xác minh SHA remote. Repo `nmhien165-ui/K4-L3L4-Track4-DataPipeline4ComputerVision` là Public.
+- Không có lỗi kỹ thuật còn tồn tại. Người nộp cần nộp link repo Public theo GUIDE.md.
 
 ## Bước tiếp theo cần làm
-- Commit file trạng thái này, chạy checker; push `main`, xác minh remote SHA và bàn giao link GitHub.
+- Nộp `https://github.com/nmhien165-ui/K4-L3L4-Track4-DataPipeline4ComputerVision` trên LMS.
